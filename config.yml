@@ -1,0 +1,5 @@
+---
+foo: bar
+array:
+  - first_value
+  - second_value
