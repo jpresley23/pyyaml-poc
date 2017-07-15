@@ -1,6 +1,6 @@
 import yaml
 
 stream = file('config.yml')
-config = yaml.load(stream)
+config = yaml.safe_load(stream)
 print config['foo']
 print config['array']
