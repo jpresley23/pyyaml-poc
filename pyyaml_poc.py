@@ -1,6 +1,11 @@
 import yaml
 
+# Open file stream
 stream = file('config.yml')
+
+# safe load yaml file into variable
 config = yaml.safe_load(stream)
-print config['foo']
-print config['array']
+
+# use
+admin_server = config['admin-server']
+print admin_server

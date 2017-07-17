@@ -1,5 +1,3 @@
 ---
 foo: bar
-array:
-  - first_value
-  - second_value
+admin-server: host.foo.com
